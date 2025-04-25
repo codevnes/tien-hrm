@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation </title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Accounter Center&rdquo; Documentation by &ldquo;Soft Task&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Accounter Center&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2 June 2022<br>
+					By: Soft Task<br>
+					WhatsApp: +880 1749508007<br>
+					Email: <a href="mailto:softtaskltd@gmail.com">softtaskltd@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my Software. If you have any questions 
+					so please feel free to Email or WhatsApp
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#tech">Used Technologies</a></li>
+			<li><a href="#need">Required  Technologies Or Software </a></li>
+			<li><a href="#install">Installation Procedure</a></li>
+			<li><a href="#files">Folder Structure</a></li>
+		
+		</ol>
+		
+		<hr>
+
+
+
+		
+		<h3 id="tech"><strong>A) Used Technologies</strong> - <a href="#toc">top</a></h3>
+		
+
+		<ol class="alpha">
+			<li>Nodejs & JWT API (json web token authentication)</li>
+			<li>Mysql (Database)</li>
+			<li>React JS </li>
+			<li>Redux </li>
+			<li>Socket io</li>
+			
+		</ol>
+
+
+		<h3 id="need"><strong>B) Required  Technologies Or Software for Setup</strong> - <a href="#toc">top</a></h3>
+		
+
+		<ol class="alpha">
+			<p style="margin: 0;"> Must be setup on your computer system</p>
+			<li>Nodejs (Version >= 10)</li>
+			<li>Mysql </li>			
+			<li>Npm </li>			
+		</ol>
+
+
+		<h3 id="install"><strong>C) Installation Procedure</strong> - <a href="#toc">top</a></h3>
+		
+
+		<ol class="alpha">
+
+			<li> Front End Application setup process.</li>
+
+
+			Open command window in the root directory of this project & Go to front Folder then 
+			 Type npm install for windows or yarn for mac and hit enter.
+To run this project locally run " npm run start in the command window. Project will be hosted on localhost:3000.
+
+
+
+
+
+<li> Backend  Application setup process.</li>
+
+
+Open a another command window in the root directory of this project & Go to back Folder then 
+Type npm install for windows or yarn for mac and hit enter.
+To run this project locally run " npm run start in the command window. Application API will be hosted on localhost:5000.
+
+
+<li> Mysql Database setup process with API</li>
+
+<p> Go to Mysql Panel then  Create a database &  import sql file. (This sql file you will find project root derectory)</p>
+
+
+<p> go  " back "  folder of project root directory  -> src -> utils -> Database.js and see on top config. </p>
+
+
+
+<pre>
+	let config = {
+		host: "localhost",
+		user: "root",
+		password: "",
+		database: "database name"
+	  }
+	</pre>
+
+
+	<p>& now set your database name & others  by  your created database information & save this file </p>
+
+
+	
+		<hr>
+
+		<h3 id="files"><strong>D) Folder Structure</strong> - <a href="#toc">top</a></h3>
+
+		<h5>1. Backend  Application directory Structure</h5>
+
+
+	<img src="./assets/images/front.png">
+
+	<h5>2. Frontend Application directory Structure</h5>
+
+	<img src="./assets/images/back.png">
+	
+
+		<hr>
+
+
+
+	
+		
+		<p class="append-bottom alt large"><strong>Soft Task</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
